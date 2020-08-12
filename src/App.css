@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: whitesmoke;
+  border-style: outset;
+  background-color: teal;
+  position: static;
+}
+.header__menu{
+  size: 10px;
+}
+.header__search{
+  min-width: 20px; 
+  padding: 10px;
+  display: inline-flex;
+  
+  border-collapse: collapse;
+  border: 0px;
+  background-color: transparent;
+}
+.header__search:hover{
+  border-style: solid;
+}
+.header > SearchIcon {
+  padding: 20px;
+}
+::placeholder{
+  color: aliceblue;
+}
+/* slider */
+
+.slider{
+  padding: 20px;
+}
+
+/* bottom */
+.card{
+  text-align: center;
+  border-style: dashed;
+  border-radius: 10px;
+  padding-top: 10px;
+  opacity: 2;
+  width: 200px;
+  color: aliceblue;
+}
+.card-body{
+  background-color: tomato;
+}
+
+.card-title{
+  color: #262626;
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 0 !important;
+}
+
+.container{
+  margin-top: 100px;
+  width: 100%;
+
+  justify-content: space-between;
+}
+img {
+  display:block;
+  margin:auto;
+}
+.slick-prev:before, .slick-next:before {
+  color: black !important;
+}
+
+
+
+
+.follow{
+  background-color: #3897f0 !important;
+  border: 1px solid #3897f0 !important;
+  border-radius: 4px;
+  color: violet;
+  margin-top: 20px !important;
+}
+.card__cases{
+
+  
+  font-weight: 20px;
+  color: #fa0b0b;
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.slide__copm{
+  align-items: center;
+  text-align: center;
+  padding-top: 60px;
+  background-color: transparent;
+
+}
