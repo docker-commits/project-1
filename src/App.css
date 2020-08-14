@@ -1,18 +1,33 @@
 *{
   margin: 0;
 }
+.App{
+  background-color: #48A9A6;
+}
 .header{
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  padding: 1rem;
   border-bottom: whitesmoke;
   border-style: outset;
   background-color: teal;
   position: static;
 }
 .header__menu{
-  size: 10px;
+  padding-top: 10px;
 }
+.bottom__cards{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 16px;
+  box-shadow: 0 0 8px -4px rgba(0,0, 0, 0.5);
+  height: 300px;
+  background-color: #731dd8;
+}
+
 .header__search{
   min-width: 20px; 
   padding: 10px;
@@ -34,18 +49,36 @@
 /* slider */
 
 .slider{
-  padding: 20px;
+  
+  height: 230px;
+ 
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 16px;
+  box-shadow: 0 0 8px -4px rgba(0,0, 0, 0.5);
+  background-color: #731dd8;
 }
 
 /* bottom */
 .card{
-  text-align: center;
-  border-style: dashed;
-  border-radius: 10px;
-  padding-top: 10px;
+  /* text-align: center;
+  
+  
+  padding-top: 5px;
   opacity: 2;
-  width: 200px;
+  
+  height: 250px;
   color: aliceblue;
+  
+  display: flex;
+  margin-top: 0px; */
+  width: 150px;
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  border-style: groove;
+  justify-content: space-between;
+
 }
 .card-body{
   background-color: tomato;
@@ -59,14 +92,19 @@
   line-height: 18px;
   text-overflow: ellipsis;
   white-space: nowrap;
-  margin-bottom: 0 !important;
+  /* margin-bottom: 0 !important; */
 }
 
 .container{
-  margin-top: 100px;
+  margin-top: 0px;
   width: 100%;
+  
 
   justify-content: space-between;
+}
+.block__space{
+  justify-content: space-between;
+  ;
 }
 img {
   display:block;
@@ -106,3 +144,12 @@ img {
   background-color: transparent;
 
 }
+
+/* .slide__style{
+  height: 300px;
+ 
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 16px;
+  box-shadow: 0 0 8px -4px rgba(0,0, 0, 0.5);
+} */

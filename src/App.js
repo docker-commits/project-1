@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
-import Slideview from './Slideview.js'
-import BottomSlide from './BottomSlide.js'
+import Slideview from './Slideview.js';
+import BottomSlide from './BottomSlide.js';
 
 
 
@@ -12,10 +12,13 @@ function App() {
     <div className="App">
         {/* header */}
             <div className="header">
-                 <MenuIcon className="header__menu"/>
+              <div className="header__menu">
+                  <MenuIcon  color="action" fontSize="large"/>
+              </div>
+
                     <div>
                        <input className="header__search" placeholder="Search"/>
-                      <SearchIcon/>
+                      <SearchIcon fontSize="large" />
                    </div>
         
             </div>
@@ -25,8 +28,17 @@ function App() {
                 </div>
 
          {/* cards */}
+            {/* <Card class="bottom__cards"> 
+              <CardContent>
+                  
+              </CardContent>
+              
 
-              <BottomSlide/>
+            </Card> */}
+            <div className="bottom__cards">
+            <BottomSlide/>
+            </div>
+            
       </div>
   );
 }
